@@ -8,13 +8,13 @@
 			<div class="row">
 				<div class="col-md-8 paddingNull">
 					<?php  
-					    $args = array(  
+					    $koko = array(  
 					        'post_type' => 'post',
-					        'post_status' => 'publish',
-					        'posts_per_page' => 1, 
+					        'posts_per_page' => 1,
 					    );
-					    $loop = new WP_Query( $args );   
-					    while ( $loop->have_posts() ) : $loop->the_post();  ?>
+					    $opop = new WP_Query( $koko );   
+					    while ( $opop->have_posts() ) { 
+					    	$opop->the_post();  ?>
 								<div class="biggerPost">
 									<div class="biggerimage">
 										<img src="<?php echo get_the_post_thumbnail_url(); ?>" class="biggerpostImage">
@@ -30,17 +30,16 @@
 										<img src="https://www.outsourcedesigning.com/wp-content/uploads/2019/03/4.jpg">
 										<h5><?php echo get_the_author(); ?></h5>
 									</div>
-									<a href="<?php the_permanlink(); ?>">read more</a>
+									<a href="<?php the_permalink(); ?>">read more</a>
 								</div>
-					    <?php endwhile;
-					    wp_reset_postdata(); 
+						    <?php }
+					    wp_reset_query(); 
 					?>
 				</div>
 				<div class="col-md-4 smallpostcontainer	">
 					<?php  
 					    $qwe = array(  
 					        'post_type' => 'post',
-					        'post_status' => 'publish',
 					        'posts_per_page' => 3, 
 					    );
 					    $asd = new WP_Query( $qwe );   
@@ -55,11 +54,11 @@
 									</h4>
 									<div class="authorinfo">
 										<img src="https://www.outsourcedesigning.com/wp-content/uploads/2019/03/4.jpg">
-										<h5><?php echo get_the_author(); ?>Mozin Omer <span></span></h5>
+										<h5><?php echo get_the_author(); ?><span></span></h5>
 									</div>
 								</div>
 					    <?php endwhile;
-					    wp_reset_postdata(); 
+					    wp_reset_query(); 
 					?>
 				</div>
 			</div>
@@ -68,7 +67,6 @@
 					<?php  
 					    $yui = array(  
 					        'post_type' => 'post',
-					        'post_status' => 'publish',
 					        'posts_per_page' => -1, 
 					    );
 					    $zxc = new WP_Query( $yui );   
@@ -80,7 +78,7 @@
 											<?php the_title(); ?>
 										</h2>
 										<p>
-											<?php the_exceprt(); ?>
+											<?php the_excerpt(); ?>
 										</p>
 										<a href="<?php the_permalink(); ?>" id="startProject">
 											Read Post
@@ -88,7 +86,7 @@
 									</div>
 								</div>
 					    <?php endwhile;
-					    wp_reset_postdata(); 
+					    wp_reset_query(); 
 					?>
 				</div>
 			</div>

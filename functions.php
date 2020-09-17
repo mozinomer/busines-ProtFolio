@@ -25,4 +25,23 @@ function services() {
         )
     );
 }
+
 add_action( 'init', 'services' );
+
+function casestudies() {
+    register_post_type( 'casestudies',
+        array(
+            'labels' => array(
+                'name' => __( 'CaseStudies' ),
+                'singular_name' => __( 'CaseStudy' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'casestudies'),
+            'show_in_rest' => true,
+            'supports' => array('title', 'excerpt', 'thumbnail', 'editor'),
+ 
+        )
+    );
+}
+add_action( 'init', 'casestudies' );
