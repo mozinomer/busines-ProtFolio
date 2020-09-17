@@ -1,5 +1,5 @@
 <?php 
-
+add_theme_support( 'post-thumbnails' ); 
 function register_my_menus() {
   register_nav_menus(
     array(
@@ -20,6 +20,7 @@ function services() {
             'has_archive' => true,
             'rewrite' => array('slug' => 'services'),
             'show_in_rest' => true,
+            'supports' => array('title', 'excerpt', 'thumbnail', 'editor'),
  
         )
     );
