@@ -1853,11 +1853,208 @@ div#blog {
     margin-bottom: 60px;
 }
 
+.contactcontainer {
+    margin-top: 56px;
+}
+
+.bannercontainercontact {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    background-image: url('https://www.urbaninfluence.com/images/contact/contact-hero-bg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: top;
+    color: #fff;
+    background-blend-mode: multiply;
+    background-color: #00000080;
+}
+
+.bannercontainercontact h2 {
+    font-size: 72px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.bannercontainercontact h2::after {content: "";display: block;width: 20%;background: #00cac5;height: 4px;margin: auto;bottom: 20px;position: absolute;left: 0;right: 0;margin: auto;}
+
+.bannercontainercontact p {
+    text-align: center;
+    font-size: 17px;
+    max-width: 500px;
+    margin: auto;
+    opacity: 0.6;
+    line-height: 26px;
+    width: max-content;
+}
+
+.bannercontainercontact a {
+    background: #00cac5;
+    color: #fff;
+    width: max-content;
+    display: block;
+    margin: auto;
+    margin: 60px auto;
+    padding: 15px 50px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+    border: 2px solid #00cac5;
+}
+
+.bannercontainercontact a:hover {
+    color: #00cac5;
+    background: none;
+}
+
+div#from {
+    align-items: flex-start;
+}
+div#from {
+    flex-direction: row-reverse;
+}
+div#from .col-md-6 {
+    padding: 0px 130px;
+    flex: 1;
+    height: 100%;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div#from .col-md-6:first-child {
+    background: url('https://www.urbaninfluence.com/images/contact/contact-address-bg2.jpg');
+}
+
+div#from .col-md-6 h3, div#from .col-md-6 p, div#from .col-md-6 a {
+    width: 100%;
+    color: #fff;
+}
+
+div#from .col-md-6 h3 {
+    font-size: 53px;
+    letter-spacing: 1px;
+    border-bottom: 4px solid #00cac5;
+    max-width: max-content;
+}
+
+a#mail {
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.bannercontainercontact p {
+    font-weight: 300;
+}
+
+a#telno {
+    font-weight: 300;
+    font-size: 19px;
+}
+.contentasdw p {
+    margin: 40px 0px;
+    color: #fff !important;
+    opacity: 1;
+    font-size: 27px;
+    line-height: 33px;
+}
+
+.contentasd {}
+
+.contentasdw a {
+    display: block;
+    margin-bottom: 20px;
+}
+form.wpcf7-form.init {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form.wpcf7-form.init p {
+    flex: 0 45%;
+    width: 45% !important;
+}
+
+form.wpcf7-form.init p:last-child {
+    flex: 0 100%;
+    width: 100% !important;
+}
+
+form.wpcf7-form.init p:last-child {
+    width: 100% !important;
+    flex: 0 100%;
+}
 
 
+form.wpcf7-form.init > p:nth-child(5) {
+    /* background: red; */
+    flex: 0 100%;
+    max-width: 100%;
+}
 
+form.wpcf7-form.init > p input, form.wpcf7-form.init > p span {
+    max-width: 100%;
+}
 
+form.wpcf7-form.init p label {
+    display: block;
+    color: #00cac5;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
 
+form.wpcf7-form.init > p input {
+    height: 40px;
+    border-bottom: 2px solid red;
+    border: none;
+    border-bottom: 2px solid #01c9c4;
+    color: #000;
+    opacity: 0.8;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.contencform h4 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.contencform textarea {width: 100%;background: none;border: none;border-bottom: 2px solid #00cac5;height: 90px;resize: none;}
+
+.contencform form input[type="submit"] {
+    background: #00c5c1;
+    display: block;
+    width: 100%;
+    color: #fff !important;
+    font-size: 15px !important;
+    border-radius: 50px;
+    border: 2px solid #45d1ce !important;
+}
+
+.contencform form input[type="submit"]::placeholder {
+    color: #fff;
+}
+
+.contencform form input[type="submit"]:hover {
+    background: none;
+    color: #45d1ce !important;
+}
+
+img.custom-logo {
+    height: 46px;
+    object-fit: contain;
+    width: auto;
+}
 
 
 

@@ -17,24 +17,28 @@
 	</div>
 	<div class="row" id="from">
 		<div class="col-md-6">
-			<h3>
-				URBAN INFLUENCE
-			</h3>
-			<p>
-				1508 10th Ave. <br> Seattle, WA 98122
-			</p>
-			<a href="" id="mail">
-				info@urbaninfluence.com
-			</a>
-			<a href="" id="telno">
-				206.973.5350
-			</a>
+			<div class="contentasdw">
+				<h3>
+					URBAN INFLUENCE
+				</h3>
+				<p>
+					1508 10th Ave. <br> Seattle, WA 98122
+				</p>
+				<a href="" id="mail">
+					info@urbaninfluence.com
+				</a>
+				<a href="" id="telno">
+					206.973.5350
+				</a>
+			</div>
 		</div>
 		<div class="col-md-6">
-			<h4>
-				Hit Us Up
-			</h4>
-			<?php echo do_shortcode('') ?>
+			<div class="contencform">
+				<h4>
+					Hit Us Up
+				</h4>
+				<?php echo do_shortcode('[contact-form-7 id="87" title="Contact form 1"]') ?>
+			</div>
 		</div>
 	</div>
 </div>

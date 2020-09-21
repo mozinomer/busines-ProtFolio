@@ -30,7 +30,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="logocontainer">
-					<img src="https://www.supportliveagent.com/wp-content/uploads/2015/12/logo-2.png">
+                    <?php  
+                        if ( function_exists( 'the_custom_logo' ) ) {
+                         the_custom_logo();
+                        }
+                    ?>
 				</div>
 				<div class="nav-menu">
 					<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
