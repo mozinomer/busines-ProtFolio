@@ -2248,6 +2248,207 @@ footer svg {
 header.scroll-down .hamburger span {
     background: #000;
 }
+.boxcontainerineerBLogpost {
+    padding: 20px;
+}
+
+.boxcontainerineerBLogpost h2 {
+    font-size: 32px;
+    margin-top: 202px;
+}
+
+.boxcontainerineerBLogpost > img {
+    height: 200px;
+}
+
+.boxcontainerineerBLogpost p {
+    margin: 0px;
+}
+
+.biggerPost .biggerimage {
+    top: 0px;
+    width: 100%;
+    max-width: 100%;
+    height: 180px;
+}
+
+.biggerPost .biggerimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.biggerPost h2 {
+    max-width: 100%;
+    margin: 150px 0px 20px;
+}
+
+.biggerPost p {
+    font-size: 20px;
+}
+
+.authorinfo {
+    display: none;
+}
+
+.authorinfo + a {
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+
+.columnpostsmaller {
+    margin-bottom: 30px;
+}
+
+.secondroBlog {
+    margin-top: 20px;
+}
+div#blog {
+    padding-top: 50px;
+}
+
+span.recomendedPost {
+    margin-top: 40px;
+    display: none;
+}
+.contentBanner h2 {
+    font-size: 32px;
+}
+
+.contentBanner p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.imagesright {
+    max-width: 100%;
+    display: none;
+}
+
+.imagesright .col-md-6:last-child {
+    max-width: 60%;
+    margin-left: auto;
+}
+
+.imagesright .col-md-6:first-child {
+    max-width: 60%;
+}
+
+.contentBanner {
+    min-height: auto;
+    margin-top: 70px;
+    padding: 0px 0px 60px;
+}
+
+.maincontentaboutus h2 {
+    font-size: 25px;
+}
+
+.maincontentaboutus p {
+    font-size: 12px;
+    line-height: 22px;
+    margin: 10px 0px 0px;
+}
+
+.ourvalues .row {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.ourvalues .row .col {
+    margin-bottom: 30px;
+    padding: 0px 40px;
+}
+
+.logofooter {
+    padding-left: 40px;
+}
+ul#menu-header-menu li.current-menu-item a {
+    color: #fff !important;
+    opacity: 1;
+}
+
+header#black ul li:last-child a {
+    color: #000;
+}
+.hamburger span {
+    background: #000;
+}
+
+.hamburger.active span {
+    background: #fff !important;
+}
+.bannerservices h2 {
+    font-size: 32px;
+}
+
+.secondsectionservices h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.servicesinnrcontainer {
+    padding: 20px;
+}
+
+.servicesinnrcontainer > img {
+    max-width: 140px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.servicesinnrcontainer h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+div#casestudies h2 {
+    font-size: 32px;
+}
+
+div#casestudies > p {
+    font-size: 20px;
+}
+
+div#casestudies {
+    padding-top: 90px;
+}
+
+.innercontainer {
+    padding: 20px;
+}
+
+.contentcase h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contentcase p::after {
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(-5deg);
+}
+
+.contentcase p {
+    padding-left: 20px;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+.ourclients .row .col {
+    display: none;
+}
+
+.ourclients .row .col:nth-child(-n +3) {
+    display: block;
+}
+.ourclients {
+    border-bottom: 1px solid #ccc3;
+}
 }
 
 
